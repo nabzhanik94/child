@@ -1,14 +1,30 @@
 .hero
+    background: url('/child/img/hero/hero-bg.jpg') 
+    background-size: contain
+    position: relative
+    background-repeat: repeat-x
+    text-align: right
+    
     &-block
         display: flex
         flex-direction: column
-        background-image: url(../img/hero/hero-bg.img)
-    &-text                
+        // align-items: right
+        text-align: right
+        
+
+    &-text                       
         &__title
-            width: 595px
+            // width: 595px
             color: #535353
             font-size: 41px
             font-weight: 400
-            line-height: 50px
+            line-height: 50px            
+        &__subtitle
+            padding-top: 20px
+            color: #5892a6;
+            // font-family: "Museo Sans Cyrl -500";
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 42.35px;
             
             

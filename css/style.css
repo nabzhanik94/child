@@ -74,6 +74,14 @@
   }
 }
 
+.hero {
+  background: url("/child/img/hero/hero-bg.jpg");
+  background-size: contain;
+  position: relative;
+  background-repeat: repeat-x;
+  text-align: right;
+}
+
 .hero-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,14 +90,21 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../img/hero/hero-bg.img);
+  text-align: right;
 }
 
 .hero-text__title {
-  width: 595px;
   color: #535353;
   font-size: 41px;
   font-weight: 400;
   line-height: 50px;
+}
+
+.hero-text__subtitle {
+  padding-top: 20px;
+  color: #5892a6;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 42.35px;
 }
 /*# sourceMappingURL=style.css.map */
