@@ -48,6 +48,7 @@
 }
 
 .navbar-info__phone {
+  font-family: 'Museo Sans Bold';
   text-decoration: none;
   color: #5e5e5e;
   font-size: 24px;
@@ -56,6 +57,7 @@
 }
 
 .navbar-info__callback {
+  font-family: 'Museo Sans Light';
   color: #5892a6;
   font-size: 14px;
   font-weight: 400;
@@ -123,6 +125,7 @@
 }
 
 .hero-text__title {
+  font-family: 'Museo Sans Bold';
   color: #535353;
   font-size: 41px;
   font-weight: 400;
@@ -132,6 +135,7 @@
 }
 
 .hero-text__subtitle {
+  font-family: 'Museo Sans Light';
   padding-top: 20px;
   color: #5892a6;
   font-size: 27px;
@@ -158,6 +162,7 @@
 }
 
 .hero-offer__title {
+  font-family: 'Museo Sans Bold';
   color: #5892a6;
   font-size: 20px;
   font-weight: 400;
@@ -167,6 +172,7 @@
 }
 
 .hero-offer__subtitle {
+  font-family: 'Museo Sans Light';
   color: #000000;
   font-size: 12px;
   font-weight: 400;
@@ -175,10 +181,13 @@
 }
 
 .hero-offer__input {
+  font-family: 'Museo Sans Light';
   margin-bottom: 15px;
 }
 
 .hero-offer__button {
+  color: #ffffff;
+  font-family: 'Museo Sans Bold';
   margin-bottom: 36px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -200,6 +209,7 @@
 }
 
 .information__title {
+  font-family: 'Museo Sans Bold';
   text-align: center;
   margin-top: 60px;
   font-size: 36px;
@@ -211,17 +221,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url "/img/information/information-arrow-right.svg";
-  background-size: cover;
+  position: relative;
+  margin-bottom: 110px;
 }
 
 .description-text {
@@ -233,13 +250,15 @@
 }
 
 .description-text__title {
+  font-family: 'Museo Sans Bold';
   color: #68b0c9;
   font-size: 30px;
   font-weight: 400;
-  max-width: 310px;
+  max-width: 370px;
 }
 
 .description-text__subtitle {
+  font-family: 'Museo Sans Light';
   max-width: 390px;
   color: #535353;
   font-size: 18px;
@@ -249,9 +268,76 @@
   margin-left: 90px;
 }
 
-.description__arrow {
+.description-arrow {
   position: absolute;
-  center: 0;
-  left: 50px;
+  top: -15%;
+  left: 40%;
+}
+
+.reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reverse-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.reverse-text__title {
+  font-family: 'Museo Sans Bold';
+  color: #68b0c9;
+  font-size: 30px;
+  font-weight: 400;
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+}
+
+.reverse-text__subtitle {
+  font-family: 'Museo Sans Light';
+  max-width: 384px;
+  color: #535353;
+  font-size: 18px;
+  text-align: right;
+}
+
+.reverse-image {
+  margin-right: 100px;
+}
+
+.reverse-arrow {
+  position: absolute;
+  top: -15%;
+  left: 30%;
+}
+
+.subtitle__third {
+  max-width: 400px;
+}
+
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("/fonts/MuseoSans/MuseoSansCyrl-300.eot");
+  src: url("/fonts/MuseoSans/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans/MuseoSansCyrl-300.woff") format("woff"), url("/fonts/MuseoSans/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("/fonts/MuseoSans/MuseoSansCyrl-700.eot");
+  src: url("/fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans/MuseoSansCyrl-700.woff") format("woff"), url("/fonts/MuseoSans/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 /*# sourceMappingURL=style.css.map */

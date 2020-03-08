@@ -2,6 +2,7 @@
     display: flex
     flex-direction: column
     &__title
+        font-family: 'Museo Sans Bold';
         text-align: center
         margin-top: 60px        
         font-size: 36px
@@ -9,27 +10,120 @@
         margin-bottom: 130px
     &-blocks
         display: flex
+        flex-direction: column
         align-items: center
+        justify-content: space-between
 .description
-    display: flex    
+    display: flex 
+    position: relative   
+    margin-bottom: 110px
     &-text
         flex-basis: 50%
         justify-content: center
         &__title
+            font-family: 'Museo Sans Bold'
             color: #68b0c9
             font-size: 30px
             font-weight: 400
-            max-width: 310px
+            max-width: 370px
         &__subtitle
+            font-family: 'Museo Sans Light'
             max-width: 390px
             color: #535353
             font-size: 18px
+        // &__subtitleThird
+        //     display: flex
+        //     font-family: 'Museo Sans Light'
+        //     max-width: 390px
+        //     color: #535353
+        //     font-size: 18px
     &-image
         margin-left: 90px
-    &__arrow
-        position: absolute 
-        center: 0
-        left: 50px
+        
+    &-arrow
+        position: absolute
+        top: -15%
+        left: 40%
+.reverse
+    display: flex 
+    position: relative   
+    margin-bottom: 110px
+    justify-content: space-between
+    &-text
+        flex-basis: 50%
+        margin-left: auto
+        margin-right: 0 
+        &__title
+            font-family: 'Museo Sans Bold'
+            color: #68b0c9
+            font-size: 30px
+            font-weight: 400
+            max-width: 370px
+            margin-left: auto
+            margin-right: 0 
+            text-align: right
+        &__subtitle
+            font-family: 'Museo Sans Light'
+            max-width: 384px
+            color: #535353
+            font-size: 18px
+            text-align: right
+    &-image
+        margin-right: 100px
+        
+    &-arrow
+        position: absolute
+        top: -15%
+        left: 30%
+.subtitle
+    &__third
+        max-width: 400px
+
+            // display: flex
+            
+        // &__subtitleThird
+        //     display: flex
+        //     font-family: 'Museo Sans Light'
+        //     max-width: 390px
+        //     color: #535353
+        //     font-size: 18px
+    
+
+
+
+// .descriptionReverse
+//     display: flex 
+//     position: relative   
+//     margin-bottom: 110px 
+//     justify-content: center  
+//     &-text
+//         flex-basis: 50%
+//         justify-content: center
+//         align-items: center
+//         text-align: right
+//         &__title
+//             font-family: 'Museo Sans Bold';
+//             color: #68b0c9
+//             font-size: 30px
+//             font-weight: 400
+//             max-width: 400px
+//             text-align: right   
+//         &__subtitle
+//             font-family: 'Museo Sans Light';
+//             max-width: 500px
+//             color: #535353
+//             font-size: 18px
+//             text-align: right  
+//             display: flex
+//     &-image
+//         margin-right: 90px
+        
+//     &-arrow
+//         position: absolute
+//         top: -15%
+//         left: 33%
+
+            
 
 
         
