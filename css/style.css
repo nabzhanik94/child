@@ -585,4 +585,80 @@
 .indent__four {
   left: 25%;
 }
+
+.sertification {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9fbfd), to(#ecf3f8));
+  background-image: linear-gradient(to bottom, #f9fbfd 0%, #ecf3f8 100%);
+}
+
+.sertification-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sertification-block__title {
+  color: #535353;
+  font-family: 'Museo Sans Bold';
+  font-size: 36px;
+  margin-top: 80px;
+  margin-bottom: 86px;
+  text-align: center;
+}
+
+.sertification-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.sertification-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.sertification-image__img {
+  position: absolute;
+  right: 63%;
+}
+
+.sertification-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.sertification-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sertification-top__title {
+  color: #68b0c9;
+  font-family: 'Museo Sans Bold';
+  font-size: 22px;
+  margin-left: 22px;
+  max-width: 323px;
+  margin-bottom: 49px;
+}
+
+.sertification-bottom {
+  margin-bottom: 62px;
+}
+
+.sertification-bottom__subtitle {
+  color: #323232;
+  font-size: 18px;
+  font-family: 'Museo Sans Bold';
+  margin-bottom: 30px;
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */
