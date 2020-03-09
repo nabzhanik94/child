@@ -81,10 +81,6 @@
     max-width: 580px;
     width: 90%;
   }
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
 }
 
 .input {
@@ -104,6 +100,12 @@
   max-width: 220px;
   width: 100%;
   border: 0;
+  color: #ffffff;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+          box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
 }
 
 .hero {
@@ -339,5 +341,181 @@
   src: url("/fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSans/MuseoSansCyrl-700.woff") format("woff"), url("/fonts/MuseoSans/MuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+.sale {
+  background: url("/img/sale/sale-bg.png");
+  background-size: cover;
+  background-position: 45% 0%;
+  background-repeat: repeat-x;
+}
+
+.sale-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.sale-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 190px;
+  margin-bottom: 150px;
+  margin-left: 360px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.sale-price__arrow {
+  position: absolute;
+  top: 71%;
+  left: 49%;
+}
+
+.sale-price__subtitle {
+  color: #1e1e1e;
+  font-family: 'Museo Sans Light';
+  font-size: 18px;
+  line-height: 47px;
+  text-decoration: line-through;
+}
+
+.sale-price__title {
+  color: #d04545;
+  font-family: 'Museo Sans Bold';
+  font-size: 30px;
+  line-height: 47px;
+}
+
+.sale-stock {
+  margin-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sale-text {
+  font-family: 'Museo Sans Bold';
+  font-size: 26px;
+  text-align: center;
+  color: #535353;
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  margin-bottom: 47px;
+  margin-top: 70px;
+}
+
+.sale-text__uppercase {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 55px;
+}
+
+.sale-text__middle {
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.sale-text__small {
+  color: #68b0c9;
+  line-height: 38px;
+}
+
+.sale-offer {
+  border: 5px solid #ffffff;
+  border-radius: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-family: 'Museo Sans Bold';
+  position: relative;
+  max-width: 275px;
+  margin-bottom: 49px;
+}
+
+.sale-offer__text {
+  color: #d35656;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sale-offer__do {
+  display: inline-block;
+  max-width: 79px;
+  margin-top: 45px;
+  margin-left: 32px;
+  margin-bottom: 41px;
+  margin-right: 14px;
+}
+
+.sale-offer__in {
+  position: absolute;
+  top: 21%;
+  left: 48%;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.sale-offer__after {
+  margin-right: 36px;
+  margin-left: 13px;
+}
+
+.sale-offer__button {
+  padding: 19px 61px;
+  margin-bottom: 35px;
 }
 /*# sourceMappingURL=style.css.map */
