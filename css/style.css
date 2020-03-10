@@ -661,4 +661,161 @@
   margin-bottom: 30px;
   display: inline-block;
 }
+
+.instructions-block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.instructions-block__image {
+  position: absolute;
+  top: 26%;
+  left: 42%;
+}
+
+.instructions-block__tl {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.instructions-block__bl {
+  position: absolute;
+  top: 56%;
+  left: 32%;
+}
+
+.instructions-block__tr {
+  position: absolute;
+  top: 18%;
+  right: 30%;
+}
+
+.instructions-block__br {
+  position: absolute;
+  top: 63%;
+  right: 31%;
+}
+
+.instructions-title {
+  color: #68b0c9;
+  font-family: 'Museo Sans Bold';
+  font-size: 20px;
+}
+
+.instructions-subtitle {
+  color: #606060;
+  font-family: 'Museo Sans Light';
+  font-size: 14px;
+}
+
+.instructions-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 120px;
+}
+
+.instructions-belt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.instructions-belt__title {
+  margin-top: 133px;
+  text-align: right;
+}
+
+.instructions-belt__subtitle {
+  max-width: 230px;
+  text-align: right;
+}
+
+.instructions-setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.instructions-setting__title {
+  white-space: nowrap;
+  margin-top: 119px;
+  text-align: right;
+}
+
+.instructions-setting__subtitle {
+  max-width: 234px;
+  text-align: right;
+}
+
+.instructions-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 120px;
+}
+
+.instructions-security {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.instructions-security__title {
+  margin-top: 133px;
+}
+
+.instructions-security__subtitle {
+  max-width: 220px;
+}
+
+.instructions-strength {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.instructions-strength__title {
+  margin-top: 88px;
+}
+
+.instructions-strength__subtitle {
+  max-width: 230px;
+  margin-bottom: 72px;
+}
 /*# sourceMappingURL=style.css.map */
