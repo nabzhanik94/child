@@ -5,6 +5,7 @@
     &-block
         display: flex
         justify-content: space-between
+        align-items: center
     &-sale
         display: flex
         flex-direction: column
@@ -15,23 +16,30 @@
         flex-shrink: 0
         justify-content: center
         align-items: center
-        
+        margin-left: auto
+        margin-right: 197px
+        text-align: center
         &__title
             color: #68b0c9
             font-family: 'Museo Sans Bold'
             font-size: 17px
-            line-height: 47px                        
+            line-height: 17px 
+            display: inline-block
+            margin-top: 60px 
+            margin-bottom: 20px                      
         &__subtitle
             color: #1e1e1e
             font-size: 14px
-            line-height: 37.6px
+            line-height: 14px
             text-decoration: line-through
             font-family: 'Museo Sans Light'
+            margin-bottom: 10px
         &__price
             color: #d04545
             font-family: 'Museo Sans Bold'
             font-size: 24px
-            line-height: 37.6px
+            line-height: 24px
+            margin-top: 10px
     &-offer
         display: flex
         flex-direction: column
@@ -40,17 +48,27 @@
             color: #535353
             font-size: 20px
             font-family: 'Museo Sans Bold'
-            line-height: 34px
+            line-height: 25px
             max-width: 230px
             text-align: center
             margin-top: 60px
+            display: block
+            margin-bottom: 0
         &__subtitle
             color: #68b0c9
             line-height: 34px
             font-size: 20px
             font-family: 'Museo Sans Bold'
             background-color: #fff
-            // display: inline-block
+            display: inline-block
+            margin-top: 7px
+            margin-bottom: 27px
             max-width: 227px
         &__arrow
             position: absolute
+            top: 37%
+            right: 8%
+        &__input
+            margin-bottom: 20px
+        &__button
+            margin-bottom: 70px
