@@ -2,17 +2,100 @@
     &-block
         position: relative
         display: flex
+        margin-top: 62px
+        margin-bottom: 59px
         &__image
             position: absolute
+            left: 40%
+            top: 25%
+        &__lfirst
+            position: absolute
+            left: 26%
+            top: 30%
+        &__lsecond
+            position: absolute
+            left: 26%
+            top: 52%
+        &__lthird
+            position: absolute
+            left: 26%
+            top: 65%
+        &__lfourth
+            position: absolute
+            left: 26%
+            top: 75%
+        &__rfirst
+            position: absolute
+            right: 27%
+            top: 30%
+        &__rsecond
+            position: absolute
+            right: 27%
+            top: 52%
+        &__rthird
+            position: absolute
+            right: 27%
+            top: 65%
+        &__rfourth
+            position: absolute
+            right: 27%
+            top: 75%
     &-ordinary
+        display: flex
+        flex-direction: column  
         flex-basis: 50%
+        
         &__title
             display: block
+            max-width: 98px
+            // opacity: -1
+            color: #535353
+            font-size: 22px;
+            font-family: 'Museo Sans Bold'
+            text-align: right
+            margin-left: auto
+            margin-right: 63px
+            margin-bottom: 45px
         &__subtitle
             display: block
+            color: #939393
+            font-size: 15px
+            font-family: 'Museo Sans Bold'
+            text-align: right
+            margin-bottom: 30px
+            margin-right: 260px
+            margin-left: auto
     &-frameless
+        display: flex
+        flex-direction: column
         flex-basis: 50%
+        color: #68b0c9  
+        font-family: 'Museo Sans Bold'
         &__title
             display: block
+            font-size: 22px
+            max-width: 149px   
+            margin-left: 24px
+            margin-bottom: 46px
         &__subtitle
             display: block
+            margin-left: 241px
+            font-size: 15px
+            margin-bottom: 30px
+.subtitle
+    &__lfirst
+        max-width: 208px
+    &__lsecond
+        max-width: 186px
+    &__lthird
+        max-width: 157px
+    &__lfourth
+        max-width: 202px
+    &__rfirst
+        max-width: 187px
+    &__rsecond
+        max-width: 215px
+    &__rthird
+        max-width: 155px
+    &__rfourth
+        max-width: 190px

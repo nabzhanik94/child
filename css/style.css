@@ -943,35 +943,157 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 62px;
+  margin-bottom: 59px;
 }
 
 .compare-block__image {
   position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+.compare-block__lfirst {
+  position: absolute;
+  left: 26%;
+  top: 30%;
+}
+
+.compare-block__lsecond {
+  position: absolute;
+  left: 26%;
+  top: 52%;
+}
+
+.compare-block__lthird {
+  position: absolute;
+  left: 26%;
+  top: 65%;
+}
+
+.compare-block__lfourth {
+  position: absolute;
+  left: 26%;
+  top: 75%;
+}
+
+.compare-block__rfirst {
+  position: absolute;
+  right: 27%;
+  top: 30%;
+}
+
+.compare-block__rsecond {
+  position: absolute;
+  right: 27%;
+  top: 52%;
+}
+
+.compare-block__rthird {
+  position: absolute;
+  right: 27%;
+  top: 65%;
+}
+
+.compare-block__rfourth {
+  position: absolute;
+  right: 27%;
+  top: 75%;
 }
 
 .compare-ordinary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
 
 .compare-ordinary__title {
   display: block;
+  max-width: 98px;
+  color: #535353;
+  font-size: 22px;
+  font-family: 'Museo Sans Bold';
+  text-align: right;
+  margin-left: auto;
+  margin-right: 63px;
+  margin-bottom: 45px;
 }
 
 .compare-ordinary__subtitle {
   display: block;
+  color: #939393;
+  font-size: 15px;
+  font-family: 'Museo Sans Bold';
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: 260px;
+  margin-left: auto;
 }
 
 .compare-frameless {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+  color: #68b0c9;
+  font-family: 'Museo Sans Bold';
 }
 
 .compare-frameless__title {
   display: block;
+  font-size: 22px;
+  max-width: 149px;
+  margin-left: 24px;
+  margin-bottom: 46px;
 }
 
 .compare-frameless__subtitle {
   display: block;
+  margin-left: 241px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.subtitle__lfirst {
+  max-width: 208px;
+}
+
+.subtitle__lsecond {
+  max-width: 186px;
+}
+
+.subtitle__lthird {
+  max-width: 157px;
+}
+
+.subtitle__lfourth {
+  max-width: 202px;
+}
+
+.subtitle__rfirst {
+  max-width: 187px;
+}
+
+.subtitle__rsecond {
+  max-width: 215px;
+}
+
+.subtitle__rthird {
+  max-width: 155px;
+}
+
+.subtitle__rfourth {
+  max-width: 190px;
 }
 /*# sourceMappingURL=style.css.map */
