@@ -937,4 +937,41 @@
 .request-offer__button {
   margin-bottom: 70px;
 }
+
+.compare-block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.compare-block__image {
+  position: absolute;
+}
+
+.compare-ordinary {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.compare-ordinary__title {
+  display: block;
+}
+
+.compare-ordinary__subtitle {
+  display: block;
+}
+
+.compare-frameless {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.compare-frameless__title {
+  display: block;
+}
+
+.compare-frameless__subtitle {
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
