@@ -1170,4 +1170,67 @@
   top: 20%;
   left: 10%;
 }
+
+.footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-logo__image {
+  position: absolute;
+  left: 2%;
+  top: 22%;
+}
+
+.footer-logo__text {
+  color: #68b0c9;
+  font-family: 'Open Sans', serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 22px;
+  display: block;
+  position: relative;
+}
+
+.footer-politic {
+  display: block;
+  color: #68b0c9;
+  margin-left: 256px;
+  margin-right: 233px;
+  white-space: nowrap;
+  font-family: 'Museo Sans Light';
+}
+
+.footer-req {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #505050;
+  font-size: 14px;
+  font-family: 'Museo Sans Light';
+}
+
+.footer-req__inn {
+  display: block;
+}
+
+.footer-req__ogrn {
+  display: block;
+  white-space: nowrap;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
